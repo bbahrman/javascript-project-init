@@ -1,0 +1,291 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "globals": {
+    "nlapiAddDays": true,
+    "nlapiAddMonths": true,
+    "nlapiAttachRecord(type": true,
+    "nlapiCancelLineItem": true,
+    "nlapiCommitLineItem": true,
+    "nlapiCopyRecord": true,
+    "nlapiCreateAssistant": true,
+    "nlapiCreateCSVImport": true,
+    "nlapiCreateCurrentLineItemSubrecord": true,
+    "nlapiCreateSearch": true,
+    "nlapiCreateSubrecord": true,
+    "nlapiCreateError": true,
+    "nlapiCreateFile": true,
+    "nlapiCreateForm": true,
+    "nlapiCreateList": true,
+    "nlapiCreateRecord": true,
+    "nlapiCreateReportDefinition": true,
+    "nlapiCreateReportForm": true,
+    "nlapiCreateTemplateRenderer": true,
+    "nlapiDateToString": true,
+    "nlapiDeleteFile": true,
+    "nlapiDeleteRecord": true,
+    "nlapiDetachRecord(type": true,
+    "nlapiDisableField": true,
+    "nlapiDisableLineItemField": true,
+    "nlapiEditCurrentLineItemSubrecord": true,
+    "nlapiEditSubrecord": true,
+    "nlapiEncrypt": true,
+    "nlapiEscapeXML": true,
+    "nlapiExchangeRate": true,
+    "nlapiFindLineItemMatrixValue": true,
+    "nlapiFindLineItemValue": true,
+    "nlapiFormatCurrency": true,
+    "nlapiGetContext": true,
+    "nlapiGetCurrentLineItemDateTimeValue": true,
+    "nlapiGetCurrentLineItemIndex": true,
+    "nlapiGetCurrentLineItemMatrixValue": true,
+    "nlapiGetCurrentLineItemText": true,
+    "nlapiGetCurrentLineItemValue": true,
+    "nlapiGetCurrentLineItemValues": true,
+    "nlapiGetDateTimeValue": true,
+    "nlapiGetDepartment": true,
+    "nlapiGetJobManager": true,
+    "nlapiGetField": true,
+    "nlapiGetFieldText": true,
+    "nlapiGetFieldTexts": true,
+    "nlapiGetFieldValue": true,
+    "nlapiGetFieldValues": true,
+    "nlapiGetLineItemCount": true,
+    "nlapiGetLineItemDateTimeValue": true,
+    "nlapiGetLineItemField": true,
+    "nlapiGetLineItemMatrixField": true,
+    "nlapiGetLineItemMatrixValue": true,
+    "nlapiGetLineItemText": true,
+    "nlapiGetLineItemValue": true,
+    "nlapiGetLineItemValues": true,
+    "nlapiGetLocation": true,
+    "nlapiGetLogin": true,
+    "nlapiGetMatrixCount": true,
+    "nlapiGetMatrixField": true,
+    "nlapiGetMatrixValue": true,
+    "nlapiGetNewRecord": true,
+    "nlapiGetOldRecord": true,
+    "nlapiGetRecordId": true,
+    "nlapiGetRecordType": true,
+    "nlapiGetRole": true,
+    "nlapiGetSubsidiary": true,
+    "nlapiGetUser": true,
+    "nlapiInitiateWorkflow": true,
+    "nlapiInsertLineItem": true,
+    "nlapiInsertLineItemOption": true,
+    "nlapiInsertSelectOption": true,
+    "nlapiIsLineItemChanged": true,
+    "nlapiLoadFile": true,
+    "nlapiLoadRecord": true,
+    "nlapiLoadSearch": true,
+    "nlapiLogExecution": true,
+    "nlapiLookupField": true,
+    "nlapiMergeRecord": true,
+    "nlapiMergeTemplate": true,
+    "nlapiOutboundSSO": true,
+    "nlapiPrintRecord": true,
+    "nlapiRefreshLineItems": true,
+    "nlapiRefreshPortlet": true,
+    "nlapiRemoveCurrentLineItemSubrecord": true,
+    "nlapiRemoveLineItem": true,
+    "nlapiRemoveLineItemOption": true,
+    "nlapiRemoveSelectOption": true,
+    "nlapiRemoveSubrecord": true,
+    "nlapiRequestURL": true,
+    "nlapiRequestURLWithCredentials": true,
+    "nlapiResizePortlet": true,
+    "nlapiResolveURL": true,
+    "nlapiScheduleScript": true,
+    "nlapiSearchDuplicate": true,
+    "nlapiSearchGlobal": true,
+    "nlapiSearchRecord": true,
+    "nlapiSelectLineItem": true,
+    "nlapiSelectNewLineItem": true,
+    "nlapiSelectNode": true,
+    "nlapiSelectNodes": true,
+    "nlapiSelectValue": true,
+    "nlapiSelectValues": true,
+    "nlapiSendCampaignEmail": true,
+    "nlapiSendEmail": true,
+    "nlapiSendFax": true,
+    "nlapiSetCurrentLineItemDateTimeValue": true,
+    "nlapiSetCurrentLineItemMatrixValue": true,
+    "nlapiSetCurrentLineItemText": true,
+    "nlapiSetCurrentLineItemValue": true,
+    "nlapiSetCurrentLineItemValues": true,
+    "nlapiSetDateTimeValue": true,
+    "nlapiSetFieldText": true,
+    "nlapiSetFieldTexts ": true,
+    "nlapiSetFieldValue": true,
+    "nlapiSetFieldValues ": true,
+    "nlapiSetLineItemDateTimeValue": true,
+    "nlapiSetLineItemValue": true,
+    "nlapiSetMatrixValue": true,
+    "nlapiSetRecoveryPoint": true,
+    "nlapiSetRedirectURL": true,
+    "nlapiStringToDate": true,
+    "nlapiStringToXML": true,
+    "nlapiSubmitCSVImport": true,
+    "nlapiSubmitField": true,
+    "nlapiSubmitFile": true,
+    "nlapiSubmitRecord": true,
+    "nlapiTransformRecord": true,
+    "nlapiTriggerWorkflow": true,
+    "nlapiViewCurrentLineItemSubrecord": true,
+    "nlapiViewLineItemSubrecord": true,
+    "nlapiViewSubrecord": true,
+    "nlapiXMLToPDF": true,
+    "nlapiXMLToString": true,
+    "nlapiYieldScript": true,
+    "nlobjAssistant": true,
+    "nlobjAssistantStep": true,
+    "nlobjButton": true,
+    "nlobjColumn": true,
+    "nlobjConfiguration": true,
+    "nlobjContext": true,
+    "nlobjCredentialBuilder": true,
+    "nlobjCSVImport": true,
+    "nlobjError": true,
+    "nlobjField": true,
+    "nlobjFieldGroup": true,
+    "nlobjFile": true,
+    "nlobjForm": true,
+    "nlobjList": true,
+    "nlobjLogin": true,
+    "nlobjPivotColumn": true,
+    "nlobjPivotRow": true,
+    "nlobjPivotTable": true,
+    "nlobjPivotTableHandle": true,
+    "nlobjPortlet": true,
+    "nlobjRecord": true,
+    "nlobjReportColumn": true,
+    "nlobjReportColumnHierarchy": true,
+    "nlobjReportDefinition": true,
+    "nlobjReportForm": true,
+    "nlobjReportRowHierarchy": true,
+    "nlobjResponse": true,
+    "nlobjRequest": true,
+    "nlobjSearch": true,
+    "nlobjSearchColumn": true,
+    "nlobjSearchFilter": true,
+    "nlobjSearchResult": true,
+    "nlobjSelectOption": true,
+    "nlobjSubList": true,
+    "nlobjSubrecord": true,
+    "nlobjTab": true,
+    "nlobjTemplateRenderer": true,
+    "console": true,
+    "define": true
+  },
+  "rules": {
+    "indent": [
+      "error",
+      4
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "no-empty-function": "error",
+    "spaced-comment": [
+      "error",
+      "always",
+      {
+        "exceptions": [
+          "-",
+          "+"
+        ]
+      }
+    ],
+    "comma-spacing": "error",
+    "padding-line-between-statements": [
+      "error",
+      {
+        "blankLine": "always",
+        "prev": "*",
+        "next": "return"
+      }
+    ],
+    "key-spacing": "error",
+    "object-curly-newline": [
+      "error",
+      {
+        "multiline": true,
+        "consistent": true,
+        "minProperties": 4
+      }
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always",
+      {
+        "arraysInObjects": false
+      }
+    ],
+    "array-bracket-newline": [
+      "error",
+      {
+        "multiline": true,
+        "minItems": 4
+      }
+    ],
+    "brace-style": [
+      "error"
+    ],
+    "space-before-blocks": [
+
+    ],
+    "keyword-spacing": [
+      "error",
+      {
+        "before": true,
+        "after": true
+      }
+    ],
+    "eol-last": [
+      "error",
+      "always"
+    ],
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 2,
+        "maxBOF": 0,
+        "maxEOD": 1
+      }
+    ],
+    "newline-per-chained-call": [
+      "error",
+      { "ignoreChainWithDepth": 2 }],
+    "padded-blocks": [
+      "error",
+      "never"
+    ],
+
+    // commas must be at end of line not the beginning of the next line
+    "comma-style": [
+      "error",
+      "last"
+    ]
+
+    /*
+    multiline array
+    space before and after operators
+    question of trailing commas
+    */
+  }
+}
